@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61D2EAFE-AFFC-4BB6-BD56-13D8E6AF4A2C}" SchemaVersion="103" RootDocumentID="{2CFA1A5C-25A2-4ABE-B4C4-73063D1A95F3}" ParentDocumentID="{2CFA1A5C-25A2-4ABE-B4C4-73063D1A95F3}">
+	<Events>
+		<WorkUnit Name="Alexis_Events" ID="{61D2EAFE-AFFC-4BB6-BD56-13D8E6AF4A2C}" OwnerID="{2CFA1A5C-25A2-4ABE-B4C4-73063D1A95F3}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Music" ID="{35C8F73C-6890-4019-B9F7-F7086EA2D146}" ShortID="231504381">
+					<ChildrenList>
+						<Event Name="Music_Random" ID="{EE3AAC7B-BE93-43C6-A974-A8CD543E4CA0}">
+							<ChildrenList>
+								<Action Name="" ID="{BFD77F4A-D27E-4EEF-8F9B-1DB61BBE6548}" ShortID="633406592">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Random" ID="{F182017D-354A-446B-9C19-4ECD780C0293}" WorkUnitID="{21DBED4E-5237-4C06-8E80-94D39CB33A47}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{2CC92886-7EAC-444A-A220-322C98D905AE}" ShortID="627545726">
+					<ChildrenList>
+						<Event Name="Player_Die" ID="{AA346BA4-2064-4F41-AD93-D2BC1A5D37DB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="21"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{95CDDC7F-14D3-429C-9412-E8B04FABD4FF}" ShortID="1000799518">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Die" ID="{9A51291A-369F-47DF-849D-AC7B1EFF1F59}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Run" ID="{84359115-38EA-42A4-AF09-2D3E4C6B1694}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="21"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{FF5DDDA7-05FF-4D3F-A00C-89C64274A077}" ShortID="854962586">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Player_Run" ID="{05A297EB-987E-43D2-9056-2AC70B5FCA0B}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Spawn" ID="{35DFD6D2-3BCD-46C3-8702-59123CC12DD1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="21"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7DECCF98-7804-43E4-9B71-A1654FA4ADA7}" ShortID="914676025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Player_Spawn" ID="{D46BD6BF-A017-4160-BEE8-88B59AD337D4}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wind" ID="{C6AAE093-3795-4046-B208-13090D4DD7D6}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{C754EFC6-0586-473C-AA01-984AE56393F3}" ShortID="394767803">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Environnement_Wind" ID="{48B1E063-FED4-48AE-87FD-3ADCB3733589}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Start" ID="{CA4E4B9D-2081-4657-8F70-49B76703B112}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{54E55CC3-0E31-40CA-9D3A-6B73D01A38B8}" ShortID="171577765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Interface_Start" ID="{AC9DD9ED-2300-4B80-BAA7-64B88CFEA7EE}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Run_Stop" ID="{B6CBBC34-234D-43CE-B765-1B65DE54D32B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="21"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{856966A6-78B1-4DA3-8FA6-BE9633DB73C9}" ShortID="814252636">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Player_Run" ID="{05A297EB-987E-43D2-9056-2AC70B5FCA0B}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Match_End" ID="{52EE52E0-8471-4367-81B7-4D8E7993A0AE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{6DC547FD-2FFF-490C-9693-BD4DF2D4DBD5}" ShortID="5033136">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{020EFB12-FDEF-49C7-A3D1-F40DC9449112}" ShortID="237064228">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Interface_MatchEnd" ID="{C1506949-D27E-451D-99A3-3E2A1D653E0D}" WorkUnitID="{457AFDE6-D14D-4B6E-BC99-4C4CF9726136}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

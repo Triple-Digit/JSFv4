@@ -1,0 +1,74 @@
+Event	ID	Name			Wwise Object Path	Notes
+	71202558	Spawn			\Joel_Events\SFX\Power_Up\Spawn	
+	243769941	Match_Start			\Joel_Events\SFX\User_Interface\Match_Start	
+	275621579	Fire_Shoot_Player			\Joel_Events\SFX\Player\Fire_Shoot_Player	
+	333993026	Bullet_Rain			\Joel_Events\Music\Bullet_Rain	
+	467838998	Pick_Up			\Joel_Events\SFX\Power_Up\Pick_Up	
+	782807659	Player_Run_Stop			\Default Work Unit\Alexis_Events\SFX\Player_Run_Stop	
+	979765101	Win			\Joel_Events\Music\Win	
+	1028635762	Player_Spawn			\Default Work Unit\Alexis_Events\SFX\Player_Spawn	
+	1061660960	Hit_Shoot_Player			\Joel_Events\SFX\Player\Hit_Shoot_Player	
+	1136018332	Player_Run			\Default Work Unit\Alexis_Events\SFX\Player_Run	
+	1211884417	Play_Theme_Music			\Joel_Events\Music\Play_Theme_Music	
+	1370188985	Hit_Fire_Shoot_Player			\Joel_Events\SFX\Player\Hit_Fire_Shoot_Player	
+	1537061107	Wind			\Default Work Unit\Alexis_Events\SFX\Wind	
+	1542330065	Player_Die			\Default Work Unit\Alexis_Events\SFX\Player_Die	
+	2181698815	Gaining_A_Point			\Joel_Events\SFX\Player\Gaining_A_Point	
+	2501828728	Music_Random			\Default Work Unit\Alexis_Events\Music\Music_Random	
+	2595883869	Stop_All_Music			\Joel_Events\Music\Stop_All_Music	
+	2698747613	Button_Press			\Joel_Events\SFX\User_Interface\Button_Press	
+	3349503358	Match_End			\Default Work Unit\Alexis_Events\SFX\Match_End	
+	3833651337	Jump			\Joel_Events\SFX\Player\Jump	
+	3908297853	Menu_Start			\Default Work Unit\Alexis_Events\SFX\Menu_Start	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	812627742	LFO_Frequency			\Default Work Unit\LFO_Frequency	
+	827661417	Wind_Volume			\Default Work Unit\Wind_Volume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6525523	Game_Logo_Screen-Boucle_125bpm_L48m_P1b	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Game_Logo_Screen-Boucle_125bpm_L48m_P1b_D79FB2B7.wem		\Interactive Music Hierarchy\Theme_Music\Theme\Game_Logo_Screen-Boucle_125bpm_L48m_P1b\Game_Logo_Screen-Boucle_125bpm_L48m_P1b		18340192
+	70910621	Button_Press	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Button_Press_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Interface\Button_Press		23744
+	109156012	In_Game_Music1_Boucle1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music1_Boucle1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music1_Boucle1\In_Game_Music1_Boucle1		5851668
+	131144232	Shoot	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Shoot_1.3_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Shoot\Shoot		52144
+	143716471	In_Game_Music1_Boucle2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music1_Boucle2_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music1_Boucle2\In_Game_Music1_Boucle2		5851668
+	170606858	Explosion	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Explosion_1.1_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Shoot\Explosion		192144
+	184097685	Extrait 2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 2_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 2\Extrait 2		6435296
+	197164436	Jump_2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Jump.2_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Jump\Jump_2		40328
+	200983907	Extrait 4-1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 4-1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 4-1\Extrait 4-1		6526944
+	207685193	In_Game_Music2_boucle2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music2_boucle2_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music2_boucle2\In_Game_Music2_boucle2		5851604
+	229813350	Extrait 3-1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 3-1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 3-1\Extrait 3-1		6435248
+	239237065	Jump_1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Jump.1_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Jump\Jump_1		40328
+	272443055	#Stigner_Bullet_Rain	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\#Stigner_Bullet_Rain_D79FB2B7.wem		\Interactive Music Hierarchy\Stigners\Stigner_Bullet_Rain\#Stigner_Bullet_Rain		1256556
+	273055878	Jump	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Jump_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Jump\Jump		40328
+	274290287	In_Game_Music2_intro2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music2_intro2_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music2_boucle2\In_Game_Music2_intro2		1645892
+	294002459	#Stigner_Win	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\#Stigner_Win_D79FB2B7.wem		\Interactive Music Hierarchy\Stigners\Stigner_Win\#Stigner_Win		1803104
+	304770567	In_Game_Music2_boucle1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music2_boucle1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music2_boucle1\In_Game_Music2_boucle1		5851604
+	312282038	SFX_Player_Spawn	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Player_Spawn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Alexis\SFX_Player_Spawn		77316
+	319517082	Pick_Up	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Pick_Up_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Power_Up\Pick_Up		183844
+	343429960	SFX_Interface_MatchEnd	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Interface_MatchWin_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Alexis\SFX_Interface_MatchEnd		1058544
+	353922675	Extrait 4	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 4_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 4\Extrait 4		6526944
+	432746539	Extrait 1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 1\Extrait 1		6435296
+	462056845	Extrait 3	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 3_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 3\Extrait 3		6435248
+	496259700	SFX_Player_Die2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Player_Die2_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Alexis\Die\SFX_Player_Die2		104912
+	565054790	Gaining_A_Point	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Gaining_A_Point_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Gaining_A_Point		265232
+	573812310	SFX_Interface_Start	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Menu_Start_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Alexis\SFX_Interface_Start		441144
+	576395629	Game_Logo_Screen-Intro_125bpm_L8m_P0b	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Game_Logo_Screen-Intro_125bpm_L8m_P0b_D79FB2B7.wem		\Interactive Music Hierarchy\Theme_Music\Theme\Game_Logo_Screen-Intro_125bpm_L8m_P0b\Game_Logo_Screen-Intro_125bpm_L8m_P0b		3318016
+	581391111	SFX_Player_Run	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Player_Run_C402CE21.wem		\Actor-Mixer Hierarchy\SFX_Alexis\SFX_Player_Run		1962576
+	586175507	SFX_Player_Die1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Player_Die1_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Alexis\Die\SFX_Player_Die1		104912
+	600834269	Extrait 1-1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 1-1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 1-1\Extrait 1-1		6435296
+	670370494	Extrait 2-1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 2-1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 2-1\Extrait 2-1		6435296
+	756233799	In_Game_Music2_intro3	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music2_intro3_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music2_boucle3\In_Game_Music2_intro3		1645892
+	762100175	In_Game_Music1_Boucle3	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music1_Boucle3_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music1_Boucle3\In_Game_Music1_Boucle3		5851668
+	820793033	Match_Start	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Match_Start_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Interface\Match_Start		917712
+	828298580	In_Game_Music2_boucle3	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music2_boucle3_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music2_boucle3\In_Game_Music2_boucle3		5851604
+	877349556	in_air	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\in_air.1_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Player\Shoot\in_air		1196148
+	896780835	In_Game_Music1_intro1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music1_intro1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music1_Boucle1\In_Game_Music1_intro1		914524
+	902243119	SFX_Environnement_Wind	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Environnement_Wind_1A8BB33F.wem		\Actor-Mixer Hierarchy\SFX_Alexis\SFX_Environnement_Wind		4233808
+	910195979	Extrait 5	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 5_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 5\Extrait 5		6526992
+	919109586	In_Game_Music1_intro3	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music1_intro3_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music1_Boucle3\In_Game_Music1_intro3		914524
+	947138862	In_Game_Music2_intro1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music2_intro1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music2_boucle1\In_Game_Music2_intro1		1645892
+	970646285	SFX_Player_Die3	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\SFX_Player_Die3_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Alexis\Die\SFX_Player_Die3		104880
+	984477931	Extrait 5-1	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Extrait 5-1_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\Extrait 5-1\Extrait 5-1		6526992
+	1019840611	In_Game_Music1_intro2	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\In_Game_Music1_intro2_D79FB2B7.wem		\Interactive Music Hierarchy\In_Game_Music\Music_Random\In_Game_Music1_Boucle2\In_Game_Music1_intro2		914524
+	1050998417	Spawn	C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\SFX\Spawn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX_Joel\Power_Up\Spawn		396304
+

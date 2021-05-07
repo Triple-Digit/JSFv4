@@ -1,0 +1,794 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d282175169401384cb67b9271c6620e6, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a2cd80bfd3e8e1428e341ed48bfc5663
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: a2cd80bfd3e8e1428e341ed48bfc5663
+    GuidInternal: 
+    m_lastTime: -8585818681479521952
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d4b1f8f9fb23f24d9b2a205737fe627d
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: d4b1f8f9fb23f24d9b2a205737fe627d
+    GuidInternal: 
+    m_lastTime: -8585818681479123015
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d4b1f8f9fb23f24d9b2a205737fe627d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6f926bdb515e25448083a19c986382f2
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 6f926bdb515e25448083a19c986382f2
+    GuidInternal: 
+    m_lastTime: -8585818677218167156
+    List:
+    - name: New_SoundBank
+      guid: 7b5183ba5b87804ab2c92c9d83474041
+      id: 4072029455
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f926bdb515e25448083a19c986382f2
+      - ElementName: New_SoundBank
+        ObjectType: 7
+        guid: 7b5183ba5b87804ab2c92c9d83474041
+      Path: SoundBanks\Default Work Unit\New_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Alexis_Events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5c1afa2ca225be4ab4c473063d1a95f3
+    - ElementName: Alexis_Events
+      ObjectType: 12
+      guid: feead261fcafb64bbd5613d8e6af4a2c
+    ParentPath: Events\Default Work Unit\Alexis_Events
+    guid: feead261fcafb64bbd5613d8e6af4a2c
+    GuidInternal: 
+    m_lastTime: -8585818671609219512
+    List:
+    - name: Match_End
+      guid: e052ee527184674381b74d8e7993a0ae
+      id: 3349503358
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Match_End
+        ObjectType: 3
+        guid: e052ee527184674381b74d8e7993a0ae
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Match_End
+      maxAttenuation: 0
+      maxDuration: 6
+      minDuration: 6
+    - name: Menu_Start
+      guid: 9d4b4eca812057468f7049b76703b112
+      id: 3908297853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Menu_Start
+        ObjectType: 3
+        guid: 9d4b4eca812057468f7049b76703b112
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Menu_Start
+      maxAttenuation: 0
+      maxDuration: 2.5
+      minDuration: 2.5
+    - name: Music
+      guid: 3cf7c83590681940b9f7f7086ea2d146
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: Music
+        ObjectType: 4
+        guid: 3cf7c83590681940b9f7f7086ea2d146
+      Path: Events\Default Work Unit\Alexis_Events\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Random
+      guid: 7bac3aee93bec643a974a8cd543e4ca0
+      id: 2501828728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: Music
+        ObjectType: 4
+        guid: 3cf7c83590681940b9f7f7086ea2d146
+      - ElementName: Music_Random
+        ObjectType: 3
+        guid: 7bac3aee93bec643a974a8cd543e4ca0
+      Path: Events\Default Work Unit\Alexis_Events\Music\Music_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Die
+      guid: a46b34aa6420414fad93d2bc1a5d37db
+      id: 1542330065
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Player_Die
+        ObjectType: 3
+        guid: a46b34aa6420414fad93d2bc1a5d37db
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Player_Die
+      maxAttenuation: 0
+      maxDuration: 0.593741
+      minDuration: 0.593741
+    - name: Player_Run
+      guid: 15913584ea38a442af092d3e4c6b1694
+      id: 1136018332
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Player_Run
+        ObjectType: 3
+        guid: 15913584ea38a442af092d3e4c6b1694
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Player_Run
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Run_Stop
+      guid: 34bccbb64d23ce43b7651b65de54d32b
+      id: 782807659
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Player_Run_Stop
+        ObjectType: 3
+        guid: 34bccbb64d23ce43b7651b65de54d32b
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Player_Run_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Player_Spawn
+      guid: d2d6df35cd3bc346870259123cc12dd1
+      id: 1028635762
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Player_Spawn
+        ObjectType: 3
+        guid: d2d6df35cd3bc346870259123cc12dd1
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Player_Spawn
+      maxAttenuation: 0
+      maxDuration: 0.437483
+      minDuration: 0.437483
+    - name: SFX
+      guid: 8628c92cac7e4a44a220322c98d905ae
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      Path: Events\Default Work Unit\Alexis_Events\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Wind
+      guid: 93e0aac695374640b20813090d4dd7d6
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c1afa2ca225be4ab4c473063d1a95f3
+      - ElementName: Alexis_Events
+        ObjectType: 12
+        guid: feead261fcafb64bbd5613d8e6af4a2c
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 8628c92cac7e4a44a220322c98d905ae
+      - ElementName: Wind
+        ObjectType: 3
+        guid: 93e0aac695374640b20813090d4dd7d6
+      Path: Events\Default Work Unit\Alexis_Events\SFX\Wind
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5c1afa2ca225be4ab4c473063d1a95f3
+    ParentPath: Events\Default Work Unit
+    guid: 5c1afa2ca225be4ab4c473063d1a95f3
+    GuidInternal: 
+    m_lastTime: -8585818681479262644
+    List: []
+  - PhysicalPath: Events\Joel_Events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Joel_Events
+      ObjectType: 12
+      guid: a88252aeaa73a4488070b98771284916
+    ParentPath: Events\Joel_Events
+    guid: a88252aeaa73a4488070b98771284916
+    GuidInternal: 
+    m_lastTime: -8585818671609099857
+    List:
+    - name: Bullet_Rain
+      guid: d9938bd740dc1f4d8a4560382108c37e
+      id: 333993026
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: Music
+        ObjectType: 4
+        guid: ada4f9a38c6c7344b80bee34b47a8618
+      - ElementName: Bullet_Rain
+        ObjectType: 3
+        guid: d9938bd740dc1f4d8a4560382108c37e
+      Path: Events\Joel_Events\Music\Bullet_Rain
+      maxAttenuation: 0
+      maxDuration: 6.538979
+      minDuration: 6.538979
+    - name: Button_Press
+      guid: a6b08523ed5a0148bab5a2bc397f6976
+      id: 2698747613
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: User_Interface
+        ObjectType: 4
+        guid: 5edec801a4c1ad439b3bf5476c4ef60a
+      - ElementName: Button_Press
+        ObjectType: 3
+        guid: a6b08523ed5a0148bab5a2bc397f6976
+      Path: Events\Joel_Events\SFX\User_Interface\Button_Press
+      maxAttenuation: 0
+      maxDuration: 0.122917
+      minDuration: 0.122917
+    - name: Fire_Shoot_Player
+      guid: f6ae02454d77c64e92c62ce5826d9e79
+      id: 275621579
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Player
+        ObjectType: 4
+        guid: a6174d680b3e2f439073f59573ebc625
+      - ElementName: Fire_Shoot_Player
+        ObjectType: 3
+        guid: f6ae02454d77c64e92c62ce5826d9e79
+      Path: Events\Joel_Events\SFX\Player\Fire_Shoot_Player
+      maxAttenuation: 0
+      maxDuration: 6.229187
+      minDuration: 6.229187
+    - name: Gaining_A_Point
+      guid: 171b6607aa9329409780aa97d05c0c83
+      id: 2181698815
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Player
+        ObjectType: 4
+        guid: a6174d680b3e2f439073f59573ebc625
+      - ElementName: Gaining_A_Point
+        ObjectType: 3
+        guid: 171b6607aa9329409780aa97d05c0c83
+      Path: Events\Joel_Events\SFX\Player\Gaining_A_Point
+      maxAttenuation: 0
+      maxDuration: 1.380667
+      minDuration: 1.380667
+    - name: Hit_Fire_Shoot_Player
+      guid: 2bce088ff91cbf4791cb9395b936c0b1
+      id: 1370188985
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Player
+        ObjectType: 4
+        guid: a6174d680b3e2f439073f59573ebc625
+      - ElementName: Hit_Fire_Shoot_Player
+        ObjectType: 3
+        guid: 2bce088ff91cbf4791cb9395b936c0b1
+      Path: Events\Joel_Events\SFX\Player\Hit_Fire_Shoot_Player
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Hit_Shoot_Player
+      guid: 3b078231535ac4498451e3d57f508d37
+      id: 1061660960
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Player
+        ObjectType: 4
+        guid: a6174d680b3e2f439073f59573ebc625
+      - ElementName: Hit_Shoot_Player
+        ObjectType: 3
+        guid: 3b078231535ac4498451e3d57f508d37
+      Path: Events\Joel_Events\SFX\Player\Hit_Shoot_Player
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 1
+    - name: Jump
+      guid: e281f9b7d81bc440a81d4c7007c8049c
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Player
+        ObjectType: 4
+        guid: a6174d680b3e2f439073f59573ebc625
+      - ElementName: Jump
+        ObjectType: 3
+        guid: e281f9b7d81bc440a81d4c7007c8049c
+      Path: Events\Joel_Events\SFX\Player\Jump
+      maxAttenuation: 0
+      maxDuration: 0.209292
+      minDuration: 0.209292
+    - name: Match_Start
+      guid: db605bece7ede4488484e409dc1f7d95
+      id: 243769941
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: User_Interface
+        ObjectType: 4
+        guid: 5edec801a4c1ad439b3bf5476c4ef60a
+      - ElementName: Match_Start
+        ObjectType: 3
+        guid: db605bece7ede4488484e409dc1f7d95
+      Path: Events\Joel_Events\SFX\User_Interface\Match_Start
+      maxAttenuation: 0
+      maxDuration: 4.779
+      minDuration: 4.779
+    - name: Music
+      guid: ada4f9a38c6c7344b80bee34b47a8618
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: Music
+        ObjectType: 4
+        guid: ada4f9a38c6c7344b80bee34b47a8618
+      Path: Events\Joel_Events\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pick_Up
+      guid: 777f56caa285414faf79126f409f93b1
+      id: 467838998
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Power_Up
+        ObjectType: 4
+        guid: 698e1bf6a4c8f8478f527530979ef2e1
+      - ElementName: Pick_Up
+        ObjectType: 3
+        guid: 777f56caa285414faf79126f409f93b1
+      Path: Events\Joel_Events\SFX\Power_Up\Pick_Up
+      maxAttenuation: 0
+      maxDuration: 1.044572
+      minDuration: 0.87635
+    - name: Play_Theme_Music
+      guid: 53da850801866144be59a252c0bf8977
+      id: 1211884417
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: Music
+        ObjectType: 4
+        guid: ada4f9a38c6c7344b80bee34b47a8618
+      - ElementName: Play_Theme_Music
+        ObjectType: 3
+        guid: 53da850801866144be59a252c0bf8977
+      Path: Events\Joel_Events\Music\Play_Theme_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player
+      guid: a6174d680b3e2f439073f59573ebc625
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Player
+        ObjectType: 4
+        guid: a6174d680b3e2f439073f59573ebc625
+      Path: Events\Joel_Events\SFX\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Power_Up
+      guid: 698e1bf6a4c8f8478f527530979ef2e1
+      id: 2455846824
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Power_Up
+        ObjectType: 4
+        guid: 698e1bf6a4c8f8478f527530979ef2e1
+      Path: Events\Joel_Events\SFX\Power_Up
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      Path: Events\Joel_Events\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Spawn
+      guid: 483b9b57a8427d429e357a5c7c969c7c
+      id: 71202558
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: Power_Up
+        ObjectType: 4
+        guid: 698e1bf6a4c8f8478f527530979ef2e1
+      - ElementName: Spawn
+        ObjectType: 3
+        guid: 483b9b57a8427d429e357a5c7c969c7c
+      Path: Events\Joel_Events\SFX\Power_Up\Spawn
+      maxAttenuation: 0
+      maxDuration: 2.252682
+      minDuration: 1.8899
+    - name: Stop_All_Music
+      guid: 4a791797cfa448499bb50554d89c5856
+      id: 2595883869
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: Music
+        ObjectType: 4
+        guid: ada4f9a38c6c7344b80bee34b47a8618
+      - ElementName: Stop_All_Music
+        ObjectType: 3
+        guid: 4a791797cfa448499bb50554d89c5856
+      Path: Events\Joel_Events\Music\Stop_All_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: User_Interface
+      guid: 5edec801a4c1ad439b3bf5476c4ef60a
+      id: 3017890412
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 0eeb6b3b2ee1c14881d7ccd98a4df5bf
+      - ElementName: User_Interface
+        ObjectType: 4
+        guid: 5edec801a4c1ad439b3bf5476c4ef60a
+      Path: Events\Joel_Events\SFX\User_Interface
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Win
+      guid: c56f0eea2b8dda468c56b9af54dfa256
+      id: 979765101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Joel_Events
+        ObjectType: 12
+        guid: a88252aeaa73a4488070b98771284916
+      - ElementName: Music
+        ObjectType: 4
+        guid: ada4f9a38c6c7344b80bee34b47a8618
+      - ElementName: Win
+        ObjectType: 3
+        guid: c56f0eea2b8dda468c56b9af54dfa256
+      Path: Events\Joel_Events\Music\Win
+      maxAttenuation: 0
+      maxDuration: 9.385583
+      minDuration: 9.385583
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4562929862515f48b3801699f3de1335
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 4562929862515f48b3801699f3de1335
+    GuidInternal: 
+    m_lastTime: -8585818681479869695
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 738207b18b361145a5a730e400212a78
+    ParentPath: States\Default Work Unit
+    guid: 738207b18b361145a5a730e400212a78
+    GuidInternal: 
+    m_lastTime: -8585818681479502005
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 94f0755de717ee4a8605cdbafdcff22c
+    ParentPath: Switches\Default Work Unit
+    guid: 94f0755de717ee4a8605cdbafdcff22c
+    GuidInternal: 
+    m_lastTime: -8585818681479392032
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c8e5960bda0a6d47b7e63c07ea519a07
+    ParentPath: Triggers\Default Work Unit
+    guid: c8e5960bda0a6d47b7e63c07ea519a07
+    GuidInternal: 
+    m_lastTime: -8585818681480094160
+    List: []
+  ExpandedFileSystemItemIds: 0200000003000000040000000500000006000000080000000e0000000f0000001000000011000000120000002500000026000000
+  ExpandedWaapiItemIds: 0200000008000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: Debug

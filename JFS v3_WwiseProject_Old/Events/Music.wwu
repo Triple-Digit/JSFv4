@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CC8E277C-A1AA-42CE-927E-A5D9ED4CFC1E}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Music" ID="{CC8E277C-A1AA-42CE-927E-A5D9ED4CFC1E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Theme_Music" ID="{0885DA53-8601-4461-BE59-A252C0BF8977}">
+					<ChildrenList>
+						<Action Name="" ID="{428D2408-C523-43E6-AE6B-4CAEE854A9DD}" ShortID="830367244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Theme" ID="{9DA0E277-9695-4DED-B0B3-3DB5AD85C575}" WorkUnitID="{6736B1E3-2ABE-4792-B532-01A139A3B394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Theme_Music" ID="{393E91B8-02B1-42C1-87A8-A9275435A5A3}">
+					<ChildrenList>
+						<Action Name="" ID="{0C3203D2-C9C4-4045-8E9E-0727290154FC}" ShortID="684437580">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Theme" ID="{9DA0E277-9695-4DED-B0B3-3DB5AD85C575}" WorkUnitID="{6736B1E3-2ABE-4792-B532-01A139A3B394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bullet_Rain" ID="{D78B93D9-DC40-4D1F-8A45-60382108C37E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{2D913F84-98FE-4821-80D2-ABD915BC8D03}" ShortID="490685225">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{6714D250-718D-4874-A599-EEA9AE0376B2}" ShortID="141408545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stigner_Bullet_Rain" ID="{3E6EF583-CA07-45AA-8479-8B90E7607B67}" WorkUnitID="{6736B1E3-2ABE-4792-B532-01A139A3B394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Win" ID="{EA0E6FC5-8D2B-46DA-8C56-B9AF54DFA256}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{BA68361D-B4AA-4A0A-AFED-574E6D71684C}" ShortID="77308750">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{4EF63017-0322-40DE-B494-895A17125C3D}" ShortID="276832189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stigner_Win" ID="{AD7373BC-1345-4843-980A-90A8BACFCD89}" WorkUnitID="{6736B1E3-2ABE-4792-B532-01A139A3B394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level_Music" ID="{B007637F-4CF4-40F5-A99D-945B7EC503CB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{03CC9514-A591-4562-A690-174146BD0FAF}" ShortID="986948084">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_Game" ID="{2936DAD1-0F55-460F-9425-2133C7C352FC}" WorkUnitID="{6736B1E3-2ABE-4792-B532-01A139A3B394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Level_Music" ID="{8A4698DC-9960-4395-A625-66839BADEDFD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{7EC16E67-1A8E-47B7-BE84-3A45B18577E8}" ShortID="843353180">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_Game" ID="{2936DAD1-0F55-460F-9425-2133C7C352FC}" WorkUnitID="{6736B1E3-2ABE-4792-B532-01A139A3B394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

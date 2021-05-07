@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\sidne\OneDrive\Documents\Dawson\Game Design\JFS v3\JFS v3\JFS v3_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="1323538503">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="333993026" Name="Bullet_Rain" ObjectPath="\Events\Joel_Events\Music\Bullet_Rain" DurationType="OneShot" DurationMin="6.538979" DurationMax="6.538979">
+					<IncludedMemoryFiles>
+						<File Id="272443055" Language="SFX">
+							<ShortName>#Stigner_Bullet_Rain.wav</ShortName>
+							<Path>SFX\#Stigner_Bullet_Rain_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Joel_Events\SFX\User_Interface\Button_Press" DurationType="OneShot" DurationMin="0.122917" DurationMax="0.122917">
+					<IncludedMemoryFiles>
+						<File Id="70910621" Language="SFX">
+							<ShortName>Button_Press.wav</ShortName>
+							<Path>SFX\Button_Press_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="275621579" Name="Fire_Shoot_Player" ObjectPath="\Events\Joel_Events\SFX\Player\Fire_Shoot_Player" DurationType="OneShot" DurationMin="6.229187" DurationMax="6.229187">
+					<IncludedMemoryFiles>
+						<File Id="131144232" Language="SFX">
+							<ShortName>Shoot_1.3.wav</ShortName>
+							<Path>SFX\Shoot_1.3_10C4C929.wem</Path>
+						</File>
+						<File Id="877349556" Language="SFX">
+							<ShortName>in_air.1.wav</ShortName>
+							<Path>SFX\in_air.1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2181698815" Name="Gaining_A_Point" ObjectPath="\Events\Joel_Events\SFX\Player\Gaining_A_Point" DurationType="OneShot" DurationMin="1.380667" DurationMax="1.380667">
+					<IncludedMemoryFiles>
+						<File Id="565054790" Language="SFX">
+							<ShortName>Gaining_A_Point.wav</ShortName>
+							<Path>SFX\Gaining_A_Point_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1370188985" Name="Hit_Fire_Shoot_Player" ObjectPath="\Events\Joel_Events\SFX\Player\Hit_Fire_Shoot_Player" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1061660960" Name="Hit_Shoot_Player" ObjectPath="\Events\Joel_Events\SFX\Player\Hit_Shoot_Player"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1061660960" Name="Hit_Shoot_Player" ObjectPath="\Events\Joel_Events\SFX\Player\Hit_Shoot_Player" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="170606858" Language="SFX">
+							<ShortName>Explosion_1.1.wav</ShortName>
+							<Path>SFX\Explosion_1.1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Joel_Events\SFX\Player\Jump" DurationType="OneShot" DurationMin="0.209292" DurationMax="0.209292">
+					<IncludedMemoryFiles>
+						<File Id="197164436" Language="SFX">
+							<ShortName>Jump.2.wav</ShortName>
+							<Path>SFX\Jump.2_10C4C929.wem</Path>
+						</File>
+						<File Id="239237065" Language="SFX">
+							<ShortName>Jump.1.wav</ShortName>
+							<Path>SFX\Jump.1_10C4C929.wem</Path>
+						</File>
+						<File Id="273055878" Language="SFX">
+							<ShortName>Jump.wav</ShortName>
+							<Path>SFX\Jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3349503358" Name="Match_End" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Match_End" DurationType="OneShot" DurationMin="6.000000" DurationMax="6.000000">
+					<IncludedMemoryFiles>
+						<File Id="343429960" Language="SFX">
+							<ShortName>SFX_Interface_MatchWin.wav</ShortName>
+							<Path>SFX\SFX_Interface_MatchWin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="243769941" Name="Match_Start" ObjectPath="\Events\Joel_Events\SFX\User_Interface\Match_Start" DurationType="OneShot" DurationMin="4.779000" DurationMax="4.779000">
+					<IncludedMemoryFiles>
+						<File Id="820793033" Language="SFX">
+							<ShortName>Match_Start.wav</ShortName>
+							<Path>SFX\Match_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3908297853" Name="Menu_Start" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Menu_Start" DurationType="OneShot" DurationMin="2.500000" DurationMax="2.500000">
+					<IncludedMemoryFiles>
+						<File Id="573812310" Language="SFX">
+							<ShortName>SFX_Menu_Start.wav</ShortName>
+							<Path>SFX\SFX_Menu_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2501828728" Name="Music_Random" ObjectPath="\Events\Default Work Unit\Alexis_Events\Music\Music_Random" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="109156012" Language="SFX">
+							<ShortName>In_Game_Music1_Boucle1.wav</ShortName>
+							<Path>SFX\In_Game_Music1_Boucle1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="143716471" Language="SFX">
+							<ShortName>In_Game_Music1_Boucle2.wav</ShortName>
+							<Path>SFX\In_Game_Music1_Boucle2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="184097685" Language="SFX">
+							<ShortName>Extrait 2.wav</ShortName>
+							<Path>SFX\Extrait 2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="200983907" Language="SFX">
+							<ShortName>Extrait 4-1.wav</ShortName>
+							<Path>SFX\Extrait 4-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="207685193" Language="SFX">
+							<ShortName>In_Game_Music2_boucle2.wav</ShortName>
+							<Path>SFX\In_Game_Music2_boucle2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="229813350" Language="SFX">
+							<ShortName>Extrait 3-1.wav</ShortName>
+							<Path>SFX\Extrait 3-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="274290287" Language="SFX">
+							<ShortName>In_Game_Music2_intro2.wav</ShortName>
+							<Path>SFX\In_Game_Music2_intro2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="304770567" Language="SFX">
+							<ShortName>In_Game_Music2_boucle1.wav</ShortName>
+							<Path>SFX\In_Game_Music2_boucle1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="353922675" Language="SFX">
+							<ShortName>Extrait 4.wav</ShortName>
+							<Path>SFX\Extrait 4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="432746539" Language="SFX">
+							<ShortName>Extrait 1.wav</ShortName>
+							<Path>SFX\Extrait 1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="462056845" Language="SFX">
+							<ShortName>Extrait 3.wav</ShortName>
+							<Path>SFX\Extrait 3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="600834269" Language="SFX">
+							<ShortName>Extrait 1-1.wav</ShortName>
+							<Path>SFX\Extrait 1-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="670370494" Language="SFX">
+							<ShortName>Extrait 2-1.wav</ShortName>
+							<Path>SFX\Extrait 2-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="756233799" Language="SFX">
+							<ShortName>In_Game_Music2_intro3.wav</ShortName>
+							<Path>SFX\In_Game_Music2_intro3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="762100175" Language="SFX">
+							<ShortName>In_Game_Music1_Boucle3.wav</ShortName>
+							<Path>SFX\In_Game_Music1_Boucle3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="828298580" Language="SFX">
+							<ShortName>In_Game_Music2_boucle3.wav</ShortName>
+							<Path>SFX\In_Game_Music2_boucle3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="896780835" Language="SFX">
+							<ShortName>In_Game_Music1_intro1.wav</ShortName>
+							<Path>SFX\In_Game_Music1_intro1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="910195979" Language="SFX">
+							<ShortName>Extrait 5.wav</ShortName>
+							<Path>SFX\Extrait 5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="919109586" Language="SFX">
+							<ShortName>In_Game_Music1_intro3.wav</ShortName>
+							<Path>SFX\In_Game_Music1_intro3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="947138862" Language="SFX">
+							<ShortName>In_Game_Music2_intro1.wav</ShortName>
+							<Path>SFX\In_Game_Music2_intro1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="984477931" Language="SFX">
+							<ShortName>Extrait 5-1.wav</ShortName>
+							<Path>SFX\Extrait 5-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1019840611" Language="SFX">
+							<ShortName>In_Game_Music1_intro2.wav</ShortName>
+							<Path>SFX\In_Game_Music1_intro2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="467838998" Name="Pick_Up" ObjectPath="\Events\Joel_Events\SFX\Power_Up\Pick_Up" DurationType="OneShot" DurationMin="0.876350" DurationMax="1.044572">
+					<IncludedMemoryFiles>
+						<File Id="319517082" Language="SFX">
+							<ShortName>Pick_Up.wav</ShortName>
+							<Path>SFX\Pick_Up_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1211884417" Name="Play_Theme_Music" ObjectPath="\Events\Joel_Events\Music\Play_Theme_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="6525523" Language="SFX">
+							<ShortName>Game_Logo_Screen-Boucle_125bpm_L48m_P1b.wav</ShortName>
+							<Path>SFX\Game_Logo_Screen-Boucle_125bpm_L48m_P1b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="576395629" Language="SFX">
+							<ShortName>Game_Logo_Screen-Intro_125bpm_L8m_P0b.wav</ShortName>
+							<Path>SFX\Game_Logo_Screen-Intro_125bpm_L8m_P0b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1542330065" Name="Player_Die" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Player_Die" DurationType="OneShot" DurationMin="0.593741" DurationMax="0.593741">
+					<IncludedMemoryFiles>
+						<File Id="496259700" Language="SFX">
+							<ShortName>SFX_Player_Die2.wav</ShortName>
+							<Path>SFX\SFX_Player_Die2_10C4C929.wem</Path>
+						</File>
+						<File Id="586175507" Language="SFX">
+							<ShortName>SFX_Player_Die1.wav</ShortName>
+							<Path>SFX\SFX_Player_Die1_10C4C929.wem</Path>
+						</File>
+						<File Id="970646285" Language="SFX">
+							<ShortName>SFX_Player_Die3.wav</ShortName>
+							<Path>SFX\SFX_Player_Die3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1136018332" Name="Player_Run" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Player_Run" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="581391111" Language="SFX">
+							<ShortName>SFX_Player_Run.wav</ShortName>
+							<Path>SFX\SFX_Player_Run_C402CE21.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="782807659" Name="Player_Run_Stop" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Player_Run_Stop" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1028635762" Name="Player_Spawn" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Player_Spawn" DurationType="OneShot" DurationMin="0.437483" DurationMax="0.437483">
+					<IncludedMemoryFiles>
+						<File Id="312282038" Language="SFX">
+							<ShortName>SFX_Player_Spawn.wav</ShortName>
+							<Path>SFX\SFX_Player_Spawn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="71202558" Name="Spawn" ObjectPath="\Events\Joel_Events\SFX\Power_Up\Spawn" DurationType="OneShot" DurationMin="1.889900" DurationMax="2.252682">
+					<IncludedMemoryFiles>
+						<File Id="1050998417" Language="SFX">
+							<ShortName>Spawn.wav</ShortName>
+							<Path>SFX\Spawn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2595883869" Name="Stop_All_Music" ObjectPath="\Events\Joel_Events\Music\Stop_All_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Joel_Events\Music\Win" DurationType="OneShot" DurationMin="9.385583" DurationMax="9.385583">
+					<IncludedMemoryFiles>
+						<File Id="294002459" Language="SFX">
+							<ShortName>#Stigner_Win.wav</ShortName>
+							<Path>SFX\#Stigner_Win_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Alexis_Events\SFX\Wind" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="902243119" Language="SFX">
+							<ShortName>SFX_Environnement_Wind.wav</ShortName>
+							<Path>SFX\SFX_Environnement_Wind_1A8BB33F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
